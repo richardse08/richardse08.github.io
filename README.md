@@ -1,2 +1,27 @@
-# richardse08.github.io
-New repo to resolve a bunch of annoying fucking merge conflicts
+# live-portfolio
+Portfolio of work
+
+// The goal of this project is to display my background and experience... 
+
+// ...all while looking like a Mac OS laptop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,1 +1,134 @@
-FUCK YOU
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.6/interact.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <script src="https://use.fontawesome.com/5755fc60b5.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+
+
+
+<body class="wrapper">
+
+    <!-- Set page to fade from a solid black screen -->
+    <script>document.body.className += ' fade-out';</script>
+    
+    <!-- This is first page -->
+    <div class="lock-screen">
+
+        <!-- Upper header on lock-screen page -->
+        <div class="lock-screen-header">
+            <div class="float-right">
+                <i class="fa fa-battery-full icon-margin" aria-hidden="true"></i>
+                <i class="fa fa-wifi icon-margin" aria-hidden="true"></i>
+                <div id="intro-time" class="float-right"></div>
+            </div>
+        </div>
+        
+        <div class="lock-screen-content">
+            <!-- First row of lock-screen -->
+            <div class="icon-shell">
+                <a><img class="icon" src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/osx/osx-el-capitan-finder-icon.png"></a>
+            </div>
+
+            <!-- Second row of lock-screen -->
+            <div class="guest-name">Guest User</div>   
+
+            <!-- Third row of lock-screen -->
+            <div class="input-shell">
+                <a><img id="enter-icon" src="http://www.fabgala.com/resources/images/icons/left-arrow.png"></a>
+                <input id="username-enter" type="text" placeholder="Enter Name">
+            </div>
+        </div>
+        
+    </div> <!-- END LOCK-SCREEN -->
+
+    
+    
+    
+    <!-- This is second page -->
+    <div class="main-screen display-none wrapper">
+        
+        <!-- Main page header that displays same as lock-screen but with name included -->
+        <div class="header">
+            <div class="float-left">
+                <a><img class="apple-icon" src="images/apple-emblem.png"></a>
+            </div>
+            <div class="float-right">
+                <i class="fa fa-battery-full icon-margin" aria-hidden="true"></i>
+                <i class="fa fa-wifi icon-margin" aria-hidden="true"></i>
+                <div id="currentDate" class="float-left"></div>
+                <div id="time" class="float-left"></div>
+                <div id="user-name" class="float-right">place holder</div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Desktop icons -->
+        <div class="float-left">
+            <a target="_blank" href="https://github.com/richardse08"><img class="desktop-icon" src="images/github-small.png" alt="Image not found!" style="margin-top: 30px;"></a>
+            <a target="_blank" href="https://codepen.io/richardse08/"><img class="desktop-icon clear" src="images/codepen-small.png" alt="Image not found!"></a>
+            <a target="_blank" href="https://www.freecodecamp.com/richardse08"><img class="desktop-icon clear" src="images/freecodecamp-small.png" alt="Image not found!"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/eric-michael-richards-4326b533/"><img class="desktop-icon clear" src="images/linkedin-small.svg" alt="Image not found!"></a>
+            <a href="mailto:eric.richards.finance@gmail.com"><img class="desktop-icon clear" src="images/mail-small.png" alt="Image not found!"></a>
+        </div>
+
+
+      
+        <!-- Appears temporarily -->
+        <div class="about-me display-none">
+            <h1>Greetings, I'm Eric!</h1>
+            <p1>As a right-to-left thinker, I've spent most of my life in a state of curiosity. Through this I have learned the importance of thoughtful innovation and good design, and recently have embraced software development as a way to put in my two cents.</p1><br/><br/>
+            <p2>My background includes experience with <code>HTML5</code>, <code>CSS3</code>, <code>JavaScript</code>, <code>jQuery</code> and <code>Bootstrap</code>; with additional familiarity in <code>AJAX</code> requests, <code>JSON</code> and <code>REST APIs</code> </p2>
+            <p3>Additionally, I am building my backend skill set using technologies such as <code>Node, Express, React</code> and <code>Angular!</code></p3>
+        </div>
+      
+      
+      
+      
+        <!-- Stealth links for windows to target to -->
+        <div id="iconWindow1" class="iconWindow float-left"></div>
+        <div id="iconWindow2" class="iconWindow float-left"></div>
+        <div id="iconWindow3" class="iconWindow float-left"></div>
+        <div id="iconWindow4" class="iconWindow float-left"></div>
+        <div id="iconWindow5" class="iconWindow float-left"></div>
+        <div id="iconWindow6" class="iconWindow float-left"></div>
+        <div id="iconWindow7" class="iconWindow float-left"></div>
+        <div id="iconWindow8" class="iconWindow float-left"></div>
+        <div id="iconWindow9" class="iconWindow float-left"></div>
+        <div id="iconWindow10" class="iconWindow float-left"></div>
+        
+        
+        
+        <!-- Footer "dock" that holds footer-icons -->
+        <div class="footer">
+            <img id="1" class="footer-icon" src="placeholder" alt="Image not found!">
+            <img id="2" class="footer-icon" src="images/simon-small.png" alt="Image not found!">
+            <img id="3" class="footer-icon" src="images/tic-tac-toe-small.svg" alt="Image not found!">
+            <img id="4" class="footer-icon" src="images/pomodoro-small.png" alt="Image not found!">
+            <img id="5" class="footer-icon" src="images/calculator-small.ico" alt="Image not found!">
+            <img id="6" class="footer-icon" src="images/twitch-small.png" alt="Image not found!">
+            <img id="7" class="footer-icon" src="images/wikipedia-small.png" alt="Image not found!">
+            <img id="8" class="footer-icon" src="images/weather-small.png" alt="Image not found!">
+            <img id="9" class="footer-icon" src="images/quote-small.svg" alt="Image not found!">
+            <img id="10" class="footer-icon" src="images/tribute-small.jpg" alt="Image not found!">
+            
+        </div>
+        
+        
+        
+        
+    </div> <!-- Close main screen -->
+
+    
+  
+  
+</body>
