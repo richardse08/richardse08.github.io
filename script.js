@@ -1,60 +1,6 @@
 $(document).ready(function(){
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      $('.main-nav-list img').resizeOnApproach({
-          elementDefault: 50,
-          elementClosest: 120,
-          triggerDistance: 300
-      });
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-36251023-1']);
-      _gaq.push(['_setDomainName', 'jqueryscript.net']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
     // Fade-out body on load
     $(function() {
@@ -62,11 +8,12 @@ $(document).ready(function(){
     });
     
     
+    
     // Creating data lists for different projects
-    var pageLink = ['', 'placeholder', 'https://codepen.io/richardse08/full/qmvvGZ/', 'https://codepen.io/richardse08/full/vmvovM/', 'https://codepen.io/richardse08/full/wdvWRj/', 'https://codepen.io/richardse08/full/GWMRMM/', 'https://codepen.io/richardse08/full/BpqJeP/', 'https://codepen.io/richardse08/full/EZegMN/', 'https://codepen.io/richardse08/full/JEMXdd/', 'https://codepen.io/richardse08/full/ggWBGO/', 'https://codepen.io/richardse08/full/vKpPoQ/'];
+    var pageLink = ['', 'https://erics-voting-app.herokuapp.com/', 'https://codepen.io/richardse08/full/qmvvGZ/', 'https://codepen.io/richardse08/full/vmvovM/', 'https://codepen.io/richardse08/full/wdvWRj/', 'https://codepen.io/richardse08/full/GWMRMM/', 'https://codepen.io/richardse08/full/BpqJeP/', 'https://codepen.io/richardse08/full/EZegMN/', 'https://codepen.io/richardse08/full/JEMXdd/', 'https://codepen.io/richardse08/full/ggWBGO/', 'https://codepen.io/richardse08/full/vKpPoQ/'];
     
     
-    var imageLink = ['', 'placeholder','images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
+    var imageLink = ['', 'VOTING_APP','images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
     
     
     var description = 
