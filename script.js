@@ -13,7 +13,7 @@ $(document).ready(function(){
     var pageLink = ['', 'https://erics-voting-app.herokuapp.com/', 'https://codepen.io/richardse08/full/qmvvGZ/', 'https://codepen.io/richardse08/full/vmvovM/', 'https://codepen.io/richardse08/full/wdvWRj/', 'https://codepen.io/richardse08/full/GWMRMM/', 'https://codepen.io/richardse08/full/BpqJeP/', 'https://codepen.io/richardse08/full/EZegMN/', 'https://codepen.io/richardse08/full/JEMXdd/', 'https://codepen.io/richardse08/full/ggWBGO/', 'https://codepen.io/richardse08/full/vKpPoQ/'];
     
     
-    var imageLink = ['', 'VOTING_APP','images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
+    var imageLink = ['', 'images/voting-app.png','images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
     
     
     var description = 
