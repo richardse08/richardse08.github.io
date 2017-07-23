@@ -108,7 +108,6 @@ $(document).ready(function(){
         });
     ;
   
-        
     function dragMoveListener (event) {
         var target = event.target,
 
@@ -130,7 +129,7 @@ $(document).ready(function(){
     
    
     
-    // Define page transition functions /////////////////////////////////////////////////////////////////////
+    /////////////////////////// PAGE TRANSITIONS  /////////////////////////////
     function mainFade() {
         var mainFadeInt = setInterval(function() {
             clearInterval(mainFadeInt);
@@ -232,7 +231,7 @@ $(document).ready(function(){
         
         
         // Pass min through function to ensure no leading zeros exist
-        min = checkTime(m);
+        var min = checkTime(m);
 
         // Convert hours to standard 1-12 w/ AM/PM
         if(h <= 12) {
@@ -248,7 +247,9 @@ $(document).ready(function(){
             startTime();
         }, 1000);
     }
+    
     startTime();
+    
     function startDate() {
         var date = new Date();
         var n = date.toDateString();
@@ -256,6 +257,7 @@ $(document).ready(function(){
 
         document.getElementById('currentDate').innerHTML = n;
     };
+    
     startDate();
 
     
