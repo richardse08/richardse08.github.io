@@ -17,7 +17,7 @@ $(document).ready(function(){
     
     
     var description = 
-['', 'This is my voting app', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
+['', 'Vote for your favorite OS using this MEAN stack voting app. Built with <code>HTML, CSS, Javascript, jQuery, Bootstrap, Node.js, Express.js, MongoDB, and Chart.js</code>', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Play a match or two of the classic game Tic-Tac-Toe, built with an intelligent machine opponent! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Feeling lazy? Check out The Pomodoro Clock: a machinification of the famous "Pomodoro Technique"! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'An accurate replica of the iPhone calculator app! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 

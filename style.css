@@ -1,4 +1,9 @@
-/***************************    FADING    ********************************/
+/**********************    Establishing environment    *********************/
+
+body, html {
+    height: 100%;
+}
+
 /* Give entire screen black background so it doesn't flicker when fading */
 html {
     background-color: black;
@@ -13,6 +18,14 @@ body {
 body.fade-out {
     opacity: 0;
     transition: none;
+}
+
+.wrapper { 
+    background-image: url('images/background.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -35,17 +48,7 @@ body.fade-out {
     float: left;
 }
 
-body, html {
-    height: 100%;
-}
 
-.wrapper { 
-    background-image: url('images/background.jpg');
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 
