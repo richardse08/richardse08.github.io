@@ -1,4 +1,8 @@
 /***************************    FADING    ********************************/
+/* Give entire screen black background so it doesn't flicker when fading */
+html {
+    background-color: black;
+}
 
 /* Fading transition for body */
 body {
@@ -11,15 +15,10 @@ body.fade-out {
     transition: none;
 }
 
-/* Give entire screen black background so it doesn't flicker when fading */
-html {
-    background-color: black;
-}
 
 
 
-
-/********************************    MISC    *****************************/
+/*******************    Creating some reusable stuff    ******************/
 .display-none {
     display: none;
 }
@@ -70,14 +69,8 @@ body, html {
 
 
 
-
 /***************************    INTRO    *********************************/
-.wrapper {
-    background-color: #dce4eb;
-    background-image: url('images/background.jpg');
-    opacity: .8; 
-    filter: alpha(opacity=50);
-}
+
 
 /* Entire opening page */
 .lock-screen {
