@@ -17,7 +17,7 @@ $(document).ready(function(){
     
     
     var description = 
-['', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
+['', 'Work in progress --', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Play a match or two of the classic game Tic-Tac-Toe, built with an intelligent machine opponent! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Feeling lazy? Check out The Pomodoro Clock: a machinification of the famous "Pomodoro Technique"! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'An accurate replica of the iPhone calculator app! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
@@ -127,6 +127,8 @@ $(document).ready(function(){
     } // End dragMoveEventListener()
 
     
+    
+    
    
     
     /////////////////////////// PAGE TRANSITIONS  /////////////////////////////
@@ -146,13 +148,10 @@ $(document).ready(function(){
     
     // Launch aboutMe page as introduction
     function aboutMe() {
-          
         setTimeout(function() {
             $('.about-me').removeClass('display-none'); 
         }, 3000);
-        
     };
-    
     
     
     // Load up the main page and simultaneously add transition delay
@@ -167,7 +166,65 @@ $(document).ready(function(){
     };
     
     
+    
+    
+ 
+    ///////////////////////// Gathering credentials //////////////////////
+    function credentials() {        
+        var inputValue = $("#username-enter").val();
+        $("#user-name").html(inputValue);
+    };
+    
 
+    
+    ///////////////////////// Time fxn defined ///////////////////////////
+    function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+        
+        // Pass min through to ensure no leading zeros exist
+        var min = checkTime(m);
+
+        // Convert hours to standard 1-12 w/ AM/PM
+        if(h <= 12) {
+            $("#time").html(h + ":" + min + " AM");
+            $("#intro-time").html(h + ":" + min + " AM");
+        }
+        
+        else if (h > 12) {
+            h = h - 12;
+            $("#time").html(h + ":" + min + " PM");
+            $("#intro-time").html(h + ":" + min + " PM");
+        }
+        
+        t = setTimeout(function () {
+            startTime();
+        }, 1000);
+    }
+    
+    ///////////////////////// Date fxn defined ///////////////////////////
+    function startDate() {
+        var date = new Date();
+        var n = date.toDateString();
+        var time = date.toLocaleTimeString();
+        document.getElementById('currentDate').innerHTML = n;
+    };
+    
+    
+    
+    
+    /////////////////////// Time/date fxns fired /////////////////////////
+    startTime();
+    startDate();
+    
     
     
     
@@ -185,86 +242,9 @@ $(document).ready(function(){
             $("#enter-icon").click();
         }
     });
-    
-    
-    
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
-    // Gathering credentials ///////////////////////////////////////////////////
-    function credentials() {        
-        var inputValue = $("#username-enter").val();
-        $("#user-name").html(inputValue);
-    };
-    
-
-    
-    // Time and date function fires on load //////////////////////////////////////
-    function startTime() {
-        var today = new Date();
-        var h = today.getHours();
-        var m = today.getMinutes();
-        
-        function checkTime(i) {
-            if (i < 10) {
-                i = "0" + i;
-            }
-            return i;
-        }
-        
-        
-        // Pass min through function to ensure no leading zeros exist
-        var min = checkTime(m);
-
-        // Convert hours to standard 1-12 w/ AM/PM
-        if(h <= 12) {
-            $("#time").html(h + ":" + min + " AM");
-            $("#intro-time").html(h + ":" + min + " AM");
-        }
-        else if (h > 12) {
-            h = h - 12;
-            $("#time").html(h + ":" + min + " PM");
-            $("#intro-time").html(h + ":" + min + " PM");
-        }
-        t = setTimeout(function () {
-            startTime();
-        }, 1000);
-    }
-    
-    startTime();
-    
-    function startDate() {
-        var date = new Date();
-        var n = date.toDateString();
-        var time = date.toLocaleTimeString();
-
-        document.getElementById('currentDate').innerHTML = n;
-    };
-    
-    startDate();
 
     
 
-    
-    
-    
     
     
 }); // End document ready
