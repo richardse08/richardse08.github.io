@@ -184,7 +184,7 @@ input {
 .footer {
     border-radius: 7px 7px 0% 0%;    
     background: rgba(240, 240, 240, 0.3);
-    width: 700px;
+    width: 630px;
     height: 70px;
     position: fixed;
     bottom: 0px;
@@ -296,7 +296,7 @@ input {
 
 /* Temporary about me page that displays unless user clicks a project */
 .about-me {
-    height: 400px;
+    height: 450px;
     width: 400px;
     padding: 25px;
     margin-left: 50%;
