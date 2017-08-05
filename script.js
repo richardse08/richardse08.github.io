@@ -9,15 +9,16 @@ $(document).ready(function(){
     
     
     
-    // Creating data lists for different projects
-    var pageLink = ['', 'https://erics-voting-app.herokuapp.com/', 'https://codepen.io/richardse08/full/qmvvGZ/', 'https://codepen.io/richardse08/full/vmvovM/', 'https://codepen.io/richardse08/full/wdvWRj/', 'https://codepen.io/richardse08/full/GWMRMM/', 'https://codepen.io/richardse08/full/BpqJeP/', 'https://codepen.io/richardse08/full/EZegMN/', 'https://codepen.io/richardse08/full/JEMXdd/', 'https://codepen.io/richardse08/full/ggWBGO/', 'https://codepen.io/richardse08/full/vKpPoQ/'];
+    // Creating data lists for different projects, starting at 1 instead of 0
+    // List of links to 
+    var pageLink = ['', 'https://codepen.io/richardse08/full/qmvvGZ/', 'https://codepen.io/richardse08/full/vmvovM/', 'https://codepen.io/richardse08/full/wdvWRj/', 'https://codepen.io/richardse08/full/GWMRMM/', 'https://codepen.io/richardse08/full/BpqJeP/', 'https://codepen.io/richardse08/full/EZegMN/', 'https://codepen.io/richardse08/full/JEMXdd/', 'https://codepen.io/richardse08/full/ggWBGO/', 'https://codepen.io/richardse08/full/vKpPoQ/'];
     
     
-    var imageLink = ['', 'images/voting-app.png','images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
+    var imageLink = ['', 'images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
     
     
     var description = 
-['', 'Work in progress --', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
+['', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Play a match or two of the classic game Tic-Tac-Toe, built with an intelligent machine opponent! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Feeling lazy? Check out The Pomodoro Clock: a machinification of the famous "Pomodoro Technique"! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'An accurate replica of the iPhone calculator app! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
@@ -42,7 +43,7 @@ $(document).ready(function(){
                         html += '<div class="window-url">' + pageLink[num] + '</div>'
                     html += '</div>';
                     html += '<div class="project-image">';
-                        html += '<a href="' + pageLink[num] + '"><img src="' + imageLink[num] + '" class="img-responsive"></a>';
+                        html += '<a href="' + pageLink[num] + '" target="_blank"><img src="' + imageLink[num] + '" class="img-responsive"></a>';
                     html += '</div>';
                     html += ' <div class="clear text-center">';
                         html += '<p2>' + description[num] + '</p2>';
