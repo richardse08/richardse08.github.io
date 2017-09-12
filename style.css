@@ -281,7 +281,7 @@ input {
 /********************************Drag windows and Interact.js ************************************/
 
 /* Drag target divs (gray area around project images and descriptions) */
-#drag-1, #drag-2, #drag-3, #drag-4, #drag-5, #drag-6, #drag-7, #drag-8, #drag-9, #drag-10 {
+#drag-0, #drag-1, #drag-2, #drag-3, #drag-4, #drag-5, #drag-6, #drag-7, #drag-8, #drag-9, #drag-10 {
     height: 500px;
     width: 525px;
     min-height: 450px;
@@ -306,4 +306,5 @@ input {
     background: rgba(45, 45, 45, 0.5);
     color: white;
     text-align: center;
+    font-family: 'helvetica';
 }

@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     
-
+    
     // Fade-out body on load
     $(function() {
         $('body').removeClass('fade-out');
@@ -9,16 +9,15 @@ $(document).ready(function(){
     
     
     
-    // Creating data lists for different projects, starting at 1 instead of 0
-    // List of links to 
-    var pageLink = ['', 'https://codepen.io/richardse08/full/qmvvGZ/', 'https://codepen.io/richardse08/full/vmvovM/', 'https://codepen.io/richardse08/full/wdvWRj/', 'https://codepen.io/richardse08/full/GWMRMM/', 'https://codepen.io/richardse08/full/BpqJeP/', 'https://codepen.io/richardse08/full/EZegMN/', 'https://codepen.io/richardse08/full/JEMXdd/', 'https://codepen.io/richardse08/full/ggWBGO/', 'https://codepen.io/richardse08/full/vKpPoQ/'];
+    // List of links to live sites
+    var pageLink = ['https://richardse08.github.io/redventures-devtest/', 'https://richardse08.github.io/simon-says/', 'https://richardse08.github.io/tic-tac-toe-project/', 'https://richardse08.github.io/pomodoro-clock/', 'https://richardse08.github.io/iphone-calculator/', 'https://richardse08.github.io/twitch-viewer/', 'https://richardse08.github.io/wikipedia-viewer/', 'https://richardse08.github.io/local-weather/', 'https://richardse08.github.io/random-quote/', 'https://richardse08.github.io/tribute-page/'];
     
+    // Sources for window images
+    var imageLink = ['images/redventures-devtest.png', 'images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
     
-    var imageLink = ['', 'images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
-    
-    
+    // Short descriptions for each project
     var description = 
-['', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
+['Developer test for Red Ventures built without frameworks or libraries with the exception of jQuery', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Play a match or two of the classic game Tic-Tac-Toe, built with an intelligent machine opponent! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Feeling lazy? Check out The Pomodoro Clock: a machinification of the famous "Pomodoro Technique"! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'An accurate replica of the iPhone calculator app! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
