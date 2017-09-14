@@ -79,7 +79,7 @@ $(document).ready(function(){
         })
     
         // Limit what areas allow box to be dragged
-        .allowFrom('#drag-1, #drag-2, #drag-3, #drag-4, #drag-5, #drag-6, #drag-7, #drag-8, #drag-9')
+        .allowFrom('#drag-0, #drag-1, #drag-2, #drag-3, #drag-4, #drag-5, #drag-6, #drag-7, #drag-8, #drag-9')
         .ignoreFrom('.window-url, .red-dot, .yellow-dot, .green-dot')
         .resizable({
             preserveAspectRatio: true,
