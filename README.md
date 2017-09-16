@@ -1,9 +1,6 @@
-# live-portfolio
-Portfolio of work
+# Portfolio of work
 
-// The goal of this project is to display my background and experience... 
-
-// ...all while looking like a Mac OS laptop.
+// Input your guest username and hit enter to see links to my projects and social media accounts!
 
 
 
