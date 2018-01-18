@@ -17,7 +17,7 @@ $(document).ready(function(){
     
     // Short descriptions for each project
     var description = 
-['Replica of fios.verizon.com. I built this project to see how closely and efficiently I could make a high-profile webpage', 'Developer test for Red Ventures built without frameworks or libraries with the exception of <code>jQuery</code>', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
+['Replica of fios.verizon.com. I built this project to see how closely and efficiently I could make a high-profile webpage (note: the Verizon Fios webpage is not designed to be responsive)', 'Developer test for Red Ventures built without frameworks or libraries with the exception of <code>jQuery</code>', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Play a match or two of the classic game Tic-Tac-Toe, built with an intelligent machine opponent! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Feeling lazy? Check out The Pomodoro Clock: a machinification of the famous "Pomodoro Technique"! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'An accurate replica of the iPhone calculator app! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
