@@ -10,14 +10,14 @@ $(document).ready(function(){
     
     
     // List of links to live sites
-    var pageLink = ['http://fios-project.herokuapp.com/', 'http://red-ventures-devtest.herokuapp.com/', 'https://richardse08.github.io/simon-says/', 'https://richardse08.github.io/tic-tac-toe-project/', 'https://richardse08.github.io/pomodoro-clock/', 'https://richardse08.github.io/iphone-calculator/', 'https://richardse08.github.io/twitch-viewer/', 'https://richardse08.github.io/wikipedia-viewer/', 'https://richardse08.github.io/local-weather/', 'https://richardse08.github.io/random-quote/', 'https://richardse08.github.io/tribute-page/'];
+    var pageLink = ['http://mattr-project.herokuapp.com/', 'http://fios-project.herokuapp.com/', 'http://red-ventures-devtest.herokuapp.com/', 'https://richardse08.github.io/simon-says/', 'https://richardse08.github.io/tic-tac-toe-project/', 'https://richardse08.github.io/pomodoro-clock/', 'https://richardse08.github.io/iphone-calculator/', 'https://richardse08.github.io/twitch-viewer/', 'https://richardse08.github.io/wikipedia-viewer/', 'https://richardse08.github.io/local-weather/', 'https://richardse08.github.io/random-quote/', 'https://richardse08.github.io/tribute-page/'];
     
     // Sources for window images
-    var imageLink = ['images/fios-project.png', 'images/redventures-devtest.png', 'images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
+    var imageLink = ['images/mattr-project.png', 'images/fios-project.png', 'images/redventures-devtest.png', 'images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
     
     // Short descriptions for each project
     var description = 
-['Replica of fios.verizon.com. I built this project to see how closely and efficiently I could make a high-profile webpage (note: the Verizon Fios webpage is not designed to be responsive)', 'Developer test for Red Ventures built without frameworks or libraries with the exception of <code>jQuery</code>', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
+['Replica of the Mattr website. This was a developer test designed to be a full stack site', 'Replica of fios.verizon.com. I built this project to see how closely and efficiently I could make a high-profile webpage (note: the Verizon Fios webpage is not designed to be responsive)', 'Developer test for Red Ventures built without frameworks or libraries with the exception of <code>jQuery</code>', 'Play a round of Simon Says with this interactive game! Give Strict Mode a shot for an extra challenge! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Play a match or two of the classic game Tic-Tac-Toe, built with an intelligent machine opponent! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'Feeling lazy? Check out The Pomodoro Clock: a machinification of the famous "Pomodoro Technique"! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
 'An accurate replica of the iPhone calculator app! Made with <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> and <code>JQuery</code>', 
@@ -79,7 +79,7 @@ $(document).ready(function(){
         })
     
         // Limit what areas allow box to be dragged
-        .allowFrom('#drag-0, #drag-1, #drag-2, #drag-3, #drag-4, #drag-5, #drag-6, #drag-7, #drag-8, #drag-9, #drag-10')
+        .allowFrom('#drag-0, #drag-1, #drag-2, #drag-3, #drag-4, #drag-5, #drag-6, #drag-7, #drag-8, #drag-9, #drag-10, #drag-11')
         .ignoreFrom('.window-url, .red-dot, .yellow-dot, .green-dot')
         .resizable({
             preserveAspectRatio: true,
