@@ -37,7 +37,7 @@ $(document).ready(function(){
                         html += '<a href="' + pageLink[num] + '" target="_blank"><img src="' + imageLink[num] + '" class="img-responsive"></a>';
                     html += '</div>';
                     html += ' <div class="clear text-center">';
-                        html += '<p2>' + description[num] + '</p2>';
+                        html += '<p2 class="window-font">' + description[num] + '</p2>';
                     html += '</div>';
                 html += '</div>';
             html += '</div>';

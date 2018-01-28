@@ -30,6 +30,17 @@ body.fade-out {
     background-size: cover;
 }
 
+/* font sets **********************************/
+@font-face {
+    font-family: 'Adelle Light';
+    src: url(/fonts/Adelle_light.otf);
+}
+
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url(/fonts/ProximaNova-Light.otf);
+}
+
 
 
 
@@ -297,7 +308,7 @@ input {
 
 /* Temporary about me page that displays unless user clicks a project */
 .about-me {
-    height: 450px;
+    height: 500px;
     width: 400px;
     padding: 25px;
     margin-left: 50%;
@@ -307,5 +318,17 @@ input {
     background: rgba(45, 45, 45, 0.7);
     color: white;
     text-align: center;
-    font-family: 'helvetica';
+    font-family: 'Proxima Nova Light', 'Helvetica';
 }
+
+.window-font {
+    font-family: 'Proxima Nova Light', 'Helvetica';
+}
+
+
+
+
+
+
+
+
