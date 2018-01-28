@@ -308,7 +308,7 @@ input {
 
 /* Temporary about me page that displays unless user clicks a project */
 .about-me {
-    height: 500px;
+    height: 550px;
     width: 400px;
     padding: 25px;
     margin-left: 50%;
@@ -319,6 +319,11 @@ input {
     color: white;
     text-align: center;
     font-family: 'Proxima Nova Light', 'Helvetica';
+}
+
+.about-me a {
+    color: aqua;
+    font-size: 20px !important;
 }
 
 .window-font {
