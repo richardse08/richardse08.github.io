@@ -337,3 +337,16 @@ input {
 
 
 
+
+
+.desktop-icon:hover {
+    cursor: url('images/alt_cursor.png'), auto;	
+}
+
+
+
+
+
+
+
+
