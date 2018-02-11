@@ -143,6 +143,7 @@ body.fade-out {
 
 input {
     border: none;
+    outline: none;
     border-radius: 10px;
     background: rgba(240, 240, 240, 0.5);
     width: 250px;
