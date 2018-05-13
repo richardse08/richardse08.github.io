@@ -310,8 +310,8 @@ input {
 
 /* Temporary about me page that displays unless user clicks a project */
 .about-me {
-    height: 600px;
-    width: 500px;
+    height: 500px;
+    width: 450px;
     padding: 5px 15px 5px 15px;
     margin-left: 50%;
     margin-top: 50vh;
