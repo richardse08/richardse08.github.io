@@ -310,11 +310,11 @@ input {
 
 /* Temporary about me page that displays unless user clicks a project */
 .about-me {
-    height: 500px;
+    height: 530px;
     width: 450px;
-    padding: 5px 15px 5px 15px;
+    padding: 0px 15px 5px 15px;
     margin-left: 50%;
-    margin-top: 50vh;
+    margin-top: 45vh;
     transform: translate(-50%, -50%);
     position: absolute;
     background: rgba(45, 45, 45, 0.7);
