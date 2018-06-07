@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     // only allow 3 windows to show
     var windowCounter = 0;
+    console.log(windowCounter);
     
     
     
