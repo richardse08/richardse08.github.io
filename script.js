@@ -56,6 +56,7 @@ $(document).ready(function(){
             $('.about-me').addClass('display-none');
             windowCounter++;
         }
+        console.log(windowCounter);
     });
     
 
