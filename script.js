@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+    // only allow 3 windows to show
+    var windowCounter = 0;
     
     
     
@@ -48,8 +51,11 @@ $(document).ready(function(){
     // When any divs with icons class is clicked
     // Grab its id and pass it into windowLoader to render html window
     $(".footer-icon").click(function(){
-        windowLoader(this.id);  
-        $('.about-me').addClass('display-none');
+        if (windowCounter <= 3) {
+            windowLoader(this.id);  
+            $('.about-me').addClass('display-none');
+            windowCounter++;
+        }
     });
     
 
@@ -57,6 +63,7 @@ $(document).ready(function(){
     // Find the 3rd parent and eliminate it
     $(this).on('click', '.red-dot', function(){
         $($(this).parent().parent().parent().parent()).html('');
+        windowCounter--;
     });
     
     
