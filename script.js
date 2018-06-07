@@ -49,6 +49,7 @@ $(document).ready(function(){
     // Grab its id and pass it into windowLoader to render html window
     $(".footer-icon").click(function(){
         windowLoader(this.id);  
+        console.log(this.id);
         $('.about-me').addClass('display-none');
     });
     
