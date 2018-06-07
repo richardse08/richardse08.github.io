@@ -10,10 +10,10 @@ $(document).ready(function(){
     
     
     // List of links to live sites
-    var pageLink = ['http://gif-viewer.herokuapp.com/', 'http://gif-viewer.herokuapp.com/', 'http://gif-viewer.herokuapp.com/', 'http://voting-app-v2.herokuapp.com/', 'http://mattr-project.herokuapp.com/', 'http://fios-project.herokuapp.com/', 'http://red-ventures-devtest.herokuapp.com/', 'https://richardse08.github.io/simon-says/', 'https://richardse08.github.io/tic-tac-toe-project/', 'https://richardse08.github.io/pomodoro-clock/', 'https://richardse08.github.io/iphone-calculator/', 'https://richardse08.github.io/twitch-viewer/', 'https://richardse08.github.io/wikipedia-viewer/', 'https://richardse08.github.io/local-weather/', 'https://richardse08.github.io/random-quote/', 'https://richardse08.github.io/tribute-page/'];
+    var pageLink = ['http://gif-viewer.herokuapp.com/', 'http://vue-recipe.herokuapp.com/', 'http://gif-viewer.herokuapp.com/', 'http://voting-app-v2.herokuapp.com/', 'http://mattr-project.herokuapp.com/', 'http://fios-project.herokuapp.com/', 'http://red-ventures-devtest.herokuapp.com/', 'https://richardse08.github.io/simon-says/', 'https://richardse08.github.io/tic-tac-toe-project/', 'https://richardse08.github.io/pomodoro-clock/', 'https://richardse08.github.io/iphone-calculator/', 'https://richardse08.github.io/twitch-viewer/', 'https://richardse08.github.io/wikipedia-viewer/', 'https://richardse08.github.io/local-weather/', 'https://richardse08.github.io/random-quote/', 'https://richardse08.github.io/tribute-page/'];
     
     // Sources for window images
-    var imageLink = ['images/gif-viewer.png', 'images/gif-viewer.png', 'images/gif-viewer.png', 'images/voting-app-v2.png', 'images/mattr-project.png', 'images/fios-project.png', 'images/redventures-devtest.png', 'images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
+    var imageLink = ['images/gif-viewer.png', 'images/vue-recipe.png', 'images/gif-viewer.png', 'images/voting-app-v2.png', 'images/mattr-project.png', 'images/fios-project.png', 'images/redventures-devtest.png', 'images/simon-says.png', 'images/tic-tac-toe.png', 'images/pomodoro.png', 'images/calculator.png', 'images/twitch.png', 'images/wikipedia.png', 'images/weather.png', 'images/random-quote.png', 'images/tribute.png'];
     
     // Short descriptions for each project
     var description = 
