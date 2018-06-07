@@ -51,12 +51,11 @@ $(document).ready(function(){
     // When any divs with icons class is clicked
     // Grab its id and pass it into windowLoader to render html window
     $(".footer-icon").click(function(){
-        if (windowCounter <= 2) {
+        if (windowCounter <= 1) {
             windowLoader(this.id);  
             $('.about-me').addClass('display-none');
             windowCounter++;
         }
-        console.log('wc is ' + windowCounter);
     });
     
 
