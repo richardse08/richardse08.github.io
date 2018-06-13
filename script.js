@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-    var windowCounter = 1;
+//    var windowCounter = 1;
+    var windowCounter = [];
     
     
     
@@ -50,10 +51,16 @@ $(document).ready(function(){
     // When any divs with icons class is clicked
     // Grab its id and pass it into windowLoader to render html window
     $(".footer-icon").click(function(){
-        if (windowCounter <= 3) {
-            windowLoader(this.id);  
-            $('.about-me').addClass('display-none');
-            windowCounter++;
+        if (windowCounter.length <= 3) {
+            for (i = 0; i < windowCounter.length; i++) {
+                if (windowCounter[i] == this.id) {
+                    console.log('asdfd');
+                    return;
+                }
+                else {
+                    windowLoader.push(this.id);
+                }
+            }
         }
     });
     
@@ -164,7 +171,17 @@ $(document).ready(function(){
     };
     
     
-    
+    ///////////////////// Control when to show enter icon /////////////////
+    document.getElementById("username-enter").addEventListener("input", usernameFieldListener);
+
+    function usernameFieldListener() {
+        var characterCount = $("#username-enter").val().split('').length;
+        console.log(characterCount);
+        if (characterCount != 0) {
+            $('#enter-icon').removeClass('visibility-none');
+        }
+        else {$('#enter-icon').addClass('visibility-none');}
+    }
     
  
     ///////////////////////// Gathering credentials //////////////////////
