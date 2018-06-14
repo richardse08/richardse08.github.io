@@ -51,10 +51,6 @@ body.fade-out {
     display: none;
 }
 
-.visibility-none {
-    visibility: hidden;
-}
-
 .clear {
     clear: both;
 }
@@ -117,7 +113,7 @@ body.fade-out {
 
 /* ROW 2 of intro */
 .guest-name {
-    width: 200px;
+    width: 100px;
     text-align: center;
     margin-top: 25px;
     color: white;
@@ -129,27 +125,20 @@ body.fade-out {
 .input-shell {
     text-align: center;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: -35px;
 }
 
 #enter-icon {
     border-radius: 50%;
-    opacity: .4; 
+    opacity: .7; 
     filter: alpha(opacity=50);
-    height: 38px;
-    width: 38px;
-    padding: 5px;
-    margin-left: 15px;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    border: solid;
-    border-width: 2px;
-    border-color: white;
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
 }
 
 #username-enter {
     width: 250px;
-
 }
 
 input {
@@ -356,7 +345,6 @@ input {
     transform: rotate(30deg);
     transition: 300ms;
 }
-
 
 
 
